@@ -1,0 +1,44 @@
+.square-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 400px;
+    height: 110px;
+    background-color: none;
+}
+
+.square-image img{
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.name {
+    
+    font-size: 17px;
+}
+
+.space{
+    margin-bottom: 20px;
+}
+
+@media (max-width:600px) {
+    .name  {
+    
+        font-size: 15px;
+    }
+
+    .square-image img{
+        border: 1px solid rgb(180, 180, 180);
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+    }
+
+    .space{
+        margin-bottom: 5px;
+    }
+     
+}

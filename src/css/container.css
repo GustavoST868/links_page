@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+    border: 0px solid rgb(206, 206, 206);
+    background-color: rgb(224, 224, 224);
+}
+
+
+@media (max-width:600px) {
+    .container{
+        width: 300px;
+        height: 530px;
+    }  
+}
